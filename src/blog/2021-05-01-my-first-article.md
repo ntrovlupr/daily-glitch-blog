@@ -9,7 +9,8 @@ description: give a description
 
 ---
 
-
-
-
-How I deal with imposter syndrome. If ever I start to feel it I tell myself that 1. "Relax it's normal Im feeling this way because Im learning something new". 2. You can never go wrong learning to code so soak it up and have fun, be a sponge! 3. if that Frank Abagale character can run around the globe passing himself off as an aviator and a doctor then I can become a developer with detication and a desire to learn.
+The way I handle imposter syndrome.
+In the beginning, I occasionally felt it, but now it seldom ever happens.
+1. "Relax it's normal, I'm feeling this way because I'm learning something new," I tell myself whenever I start to feel it.
+2. Learning to code is always a good idea, so take it all in, enjoy yourself, be a sponge!
+3. I joke with myself that if that Frank Abagale figure can travel the world pretending to be an aviator and a doctor, then with hard work and a dedication to learn I can become a developer. 
