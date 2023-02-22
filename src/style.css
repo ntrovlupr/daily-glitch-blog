@@ -178,6 +178,10 @@ p {
   text-shadow: 3px 5px 10px rgba(0,0,0, .3);
 }
 
+a {
+  color: #9cccf1bc;
+}
+
 strong {
   font-weight: var(--fw-700);
 }
@@ -260,14 +264,16 @@ a[data-tool-tip]::after {
   content: attr(data-tool-tip);
   display: block;
   position: absolute;
-  background-color:hsla(53, 4%, 48%, 0.997);
-  padding: 1em 3em;
-  color:rgb(225, 225, 225);
+  background-color:hsla(193, 66%, 75%, 0.898);
+  padding: 1em 1em;
+  color:rgb(90, 86, 78);
   border-radius: 5px;
+  border: 1px solid #4481b0;
   font-size: .8em;
   bottom: 100%;
   left: 0;
-  white-space: nowrap;
+  line-height: 1.2em; 
+  text-shadow: 2px 3px 3px rgba(56, 55, 55, 0.389);
   transform: scale(0);
   transition: 
     transform ease-out 150ms,
@@ -277,6 +283,22 @@ a[data-tool-tip]::after {
 a[data-tool-tip]:hover::after {
   transform: scale(1);
   bottom: 100%;
+}
+
+
+blockquote::before {
+  content: open-quote;
+  font-size: 2.245em;
+  font-weight: 900;
+  color: rgba(200, 203, 204, 0.436);
+  
+}
+
+blockquote::after {
+  content: close-quote;
+  font-size: 2.245em;
+  font-weight: 900;
+  color: rgba(200, 203, 204, 0.436);
 }
 
 
@@ -660,20 +682,6 @@ aside {
   .feature-snippet__body {
     max-width: 590px;
     padding-bottom: 1em;
-  }
-
-  blockquote::before {
-    content: open-quote;
-    font-size: 1.245em;
-    font-weight: 900;
-    color: rgba(115, 123, 128, 0.651);
-  }
-
-  blockquote::after {
-    content: close-quote;
-    font-size: 1.245em;
-    font-weight: 900;
-    color: rgba(115, 123, 128, 0.651);
   }
 
   /* ////////////////////
